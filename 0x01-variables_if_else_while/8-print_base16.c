@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - prints all the numbers of base 16 in lowercase
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
 	int a;
 	int b;
 
-	for (b = 48; b >= 57; b++)
+	for (b = 48; b <= 57; b++)
 	{
 		putchar(b);
 	}
